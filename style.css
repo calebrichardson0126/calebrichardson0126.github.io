@@ -13,10 +13,10 @@ body {
 nav {
     background:#49306B;
    margin: 0 auto;
-   margin-bottom 
     display: flex;
     padding: 10px;
 }
+
 h1 {
     display: flex;
     align-items: center;
