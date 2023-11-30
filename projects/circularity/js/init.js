@@ -50,9 +50,18 @@ drawCircle();
         function update() {
             // TODO 4 : Update the circle's position //
 
-            
+            physikz.updatePosition(0);
+            physikz.updatePosition(1);
+            physikz.updatePosition(2);
+            physikz.updatePosition(3);
+            physikz.updatePosition(4);
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           
+           game.chckCirclePosition(circles[0]);
+           game.chckCirclePosition(circles[1]);
+           game.chckCirclePosition(circles[2]);
+           game.chckCirclePosition(circles[3]);
+           game.chckCirclePosition(circles[4]);
+
 
             // TODO 9 : Iterate over the array
            
